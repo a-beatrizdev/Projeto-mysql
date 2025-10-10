@@ -27,6 +27,7 @@ def listar_alunos():
             return cursor.fetchall()
         except Exception as erro:
             print(f"Erro ao listar os alunos: {erro}")
+            return []
         finally:
             cursor.close()
             conexao.close()
