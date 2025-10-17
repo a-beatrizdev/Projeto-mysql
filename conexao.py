@@ -20,7 +20,7 @@ def conectar():
         return conexao, cursor 
     except Exception as erro:
         print(f"Erro de conexão: {erro}") 
-        return None, None
+        return None, None 
 
     
 

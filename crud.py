@@ -62,7 +62,7 @@ def deletar_alunos(id_aluno):
             print(f"Erro ao deletar o aluno: {erro}")
         finally:
             cursor.close()
-            conexao.close()
+            conexao.close() 
 
 
 
